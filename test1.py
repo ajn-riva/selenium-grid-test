@@ -10,8 +10,8 @@ driver = webdriver.Remote(
             "browserName": "chrome",
             "browserVersion": "latest",
             "video": "True",
-            "platform": "WIN10",
-            "platformName": "windows",
+            "platform": "LINUX",
+            "platformName": "LINUX",
         })
 print ("Video: " + VIDEO_URL + driver.session_id)
   
