@@ -5,7 +5,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 					 
 					 
 driver = webdriver.Remote(
-   command_executor="https://selenium.mgmt.odos-tc.demoriva.com/wd/hub",
+   command_executor="http://selenium3-selenium-hub.jenkins.svc.cluster.local:4444/wd/hub",
    desired_capabilities={
             "browserName": "chrome",
             "browserVersion": "latest",
